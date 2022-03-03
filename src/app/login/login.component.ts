@@ -10,7 +10,7 @@ export class LoginComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    if (this.name  != '' && this.password != '') {
+    if (this.name  != '' && this.email != '') {
       this.contactList.push({
         name: this.name,
         email: this.email,
