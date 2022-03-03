@@ -1,0 +1,11 @@
+h2{
+  text-align: center;
+}
+.button::after {
+  padding: 500px 30px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
