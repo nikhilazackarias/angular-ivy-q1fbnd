@@ -1,11 +1,19 @@
 h2{
   text-align: center;
 }
-.button::after {
-  padding: 500px 30px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
+button{
+  color: rgb(255, 255, 255);
   width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: medium;
+  margin: 10px 0;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  text-emphasis-color: rgb(15, 4, 4);
   
+}
+.signupbtn{
+  background-color: blueviolet;
 }
