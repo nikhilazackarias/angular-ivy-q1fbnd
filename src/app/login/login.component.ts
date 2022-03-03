@@ -9,5 +9,15 @@ export class LoginComponent implements OnInit {
   name = 'nikhila';
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    if (this.name  != '' && this.password != '') {
+      this.contactList.push({
+        name: this.name,
+        email: this.email,
+      });
+      this.name = '';
+      this.email = '';
+
+  }
+}
 }
